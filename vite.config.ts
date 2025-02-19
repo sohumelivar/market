@@ -12,6 +12,10 @@ export default defineConfig({
         '@features': path.resolve(__dirname, './src/features'),
         '@entities': path.resolve(__dirname, './src/entities'),
         '@shared': path.resolve(__dirname, './src/shared'),
+        '@theme': path.resolve(__dirname, './src/theme'),
+        '@components': path.resolve(__dirname, './src/components'),
+        '@assets': path.resolve(__dirname, './src/assets'),
+        '@routes': path.resolve(__dirname, './src/routes'),
     },
   },
   css: {
