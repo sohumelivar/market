@@ -1,10 +1,16 @@
-import { Button } from "@shared/ui/Button/Button"
+import { Categories } from "@widgets/Categories"
+import { SearchBar } from "@widgets/SearchBar"
 
 function App() {
 
   return (
-    <div>
-      <Button>Button</Button>
+    <div className={'wrapper'}>
+      <div className={'header'}>
+        <SearchBar />
+      </div>
+      <div className={'categories'}>
+        <Categories />
+      </div>
     </div>
   )
 }
