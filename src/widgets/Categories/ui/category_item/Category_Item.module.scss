@@ -1,0 +1,21 @@
+.category_item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: global.$background_color_LG;
+    border-radius: 12px;
+    padding: 6px 10px;
+    min-width: 90px;
+    width: auto;
+    max-width: fit-content;
+    white-space: nowrap;
+}
+  
+.category_name {
+    white-space: nowrap;
+}
+  
+.category_icon {
+    margin-left: 10px;
+}

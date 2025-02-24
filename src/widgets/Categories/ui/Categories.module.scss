@@ -1,0 +1,24 @@
+.main_wrapper {
+    font-size: global.$font_size_S;
+    color: global.$text_color_LG;
+    overflow: hidden;
+    overflow-x: visible;
+    scrollbar-width: none; /* Скрываем скроллбар в Firefox */
+    -ms-overflow-style: none; /* Скрываем скроллбар в Internet Explorer */
+    &::-webkit-scrollbar {
+    display: none; /* Скрываем скроллбар в Chrome, Safari, Edge */
+    }
+}
+
+.scroll_container {
+    width: max-content; 
+    display: flex;
+    flex-direction: column;
+}
+  
+.categories_wrapper {
+    display: flex;
+    padding: 3px;
+    padding-left: 0;
+    gap: 5px;
+}
