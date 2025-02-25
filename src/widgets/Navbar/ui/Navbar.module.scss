@@ -1,0 +1,53 @@
+.navbar {
+    background-color: global.$background_color_LG;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: global.$text_color_LG;
+
+    div {
+        flex: 1;
+    }
+
+    .logo, .photo {
+        position: relative;
+    }
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.favorite, .createItem, .messages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.nav_icon {
+    margin-bottom: 4px;
+}
+  
+.nav_text {
+    font-size: global.$font_size_S;
+    color: global.$text_color_LG;
+}
